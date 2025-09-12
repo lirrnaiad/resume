@@ -3,70 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/landing-page.css">
     <title>Sean's Resume</title>
 </head>
 <body>
     <header>
-        <div class="name">
-            <h1>Sean Ivan M. Fabia</h1>
-        </div>
-        <div class="contact-information">
-            <h3>
-                <ul>
-                    <li>seanivanfabia@gmail.com</li>
-                    <li>09282509793</li>
-                    <li><a href="https://linkedin.com/in/seanfabia">linkedin.com/in/seanfabia</a></li>
-                    <li><a href="https://github.com/lirrnaiad">github.com/lirrnaiad</a></li>
-                </ul>
-            </h3>
-        </div>
+        <h1>Sean Ivan M. Fabia</h1>
+        <p>IT Student</p>
+        <img src="images/logos/placeholder.png" alt="Portrait image of Sean"> <!-- Placeholder -->
+        <ul class="contact-information">
+            <li><a href="mailto:seanivanfabia@gmail.com">seanivanfabia@gmail.com</a></li>
+            <li><a href="tel:+639282509793">09282509793</a></li>
+            <li><a href="https://linkedin.com/in/seanfabia">linkedin.com/in/seanfabia</a></li>
+            <li><a href="https://github.com/lirrnaiad">github.com/lirrnaiad</a></li>
+        </ul>
     </header>
     
     <nav>
-        <a href="index.html">Home</a> |
-        <a href="personalinfo.html">Personal Details</a> |
-        <a href="education.html">Education, Certifications, & Training</a> |
+        <a href="index.html">Home</a>
+        <a href="personalinfo.html">Personal Details</a>
+        <a href="education.html">Education, Certifications, & Training</a>
         <a href="experience.html">Work Experience</a>
     </nav>
     
-    <main class="skills">
+    <main class="skills-container">
         <h1>Skills</h1>
-        <div class="frontend-skills">
-            <p>Frontend</p>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Tailwind CSS</li>
-                <li>React</li>
-            </ul>
-        </div>
-        <div class="backend-skills">
-            <p>Backend</p>
-            <ul>
-                <li>Spring Boot</li>
-                <li>FastAPI</li>
-                <li>PostgreSQL</li>
-                <li>SQLite</li>
-            </ul>
-        </div>
-        <div class="languages">
-            <p>Languages</p>
-            <ul>
-                <li>Java</li>
-                <li>Python</li>
-                <li>JavaScript</li>
-            </ul>
-        </div>
-        <div class="tools">
-            <p>Tools</p>
-            <ul>
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>Maven</li>
-                <li>Postman</li>
-                <li>Vercel</li>
-            </ul>
+        <div class="skills">
+            <div class="skill-category-container">
+                <p><strong>Frontend</strong></p>
+                <ul class="skill-category">
+                    <li class="technology"><img src="images/logos/placeholder.png" alt="HTML Logo">HTML</li>
+                    <li class="technology"><img src="images/logos/placeholder.png" alt="CSS Logo">CSS</li>
+                    <li class="technology"><img src="images/logos/placeholder.png" alt="JavaScript Logo">JavaScript</li>
+                    <li class="technology"><img src="images/logos/placeholder.png" alt="Tailwind Logo">Tailwind CSS</li>
+                </ul>
+            </div>
+            <div class="skill-category-container">
+                <p><strong>Backend</strong></p>
+                <ul class="skill-category">
+                    <li class="technology"><img src="images/logos/placeholder.png" alt="FastAPI Logo">FastAPI</li>
+                    <li class="technology"><img src="images/logos/placeholder.png" alt="Spring Boot Logo">Spring Boot</li>
+                    <li class="technology"><img src="images/logos/placeholder.png" alt="PostgreSQL Logo">PostgreSQL</li>
+                    <li class="technology"><img src="images/logos/placeholder.png" alt="SQLite Logo">SQLite</li>
+                </ul>
+            </div>
+            <div class="skill-category-container">
+                <p><strong>Languages</strong></p>
+                <ul class="skill-category">
+                    <li class="technology"><img src="images/logos/placeholder.png" alt="Java Logo">Java</li>
+                    <li class="technology"><img src="images/logos/placeholder.png" alt="Python Logo">Python</li>
+                    <li class="technology"><img src="images/logos/placeholder.png" alt="JavaScript Logo">JavaScript</li>
+                </ul>
+            </div>
+            <div class="skill-category-container">
+                <p><strong>Tools</strong></p>
+                <ul class="skill-category">
+                    <li class="technology"><img src="images/logos/placeholder.png" alt="Git Logo">Git</li>
+                    <li class="technology"><img src="images/logos/placeholder.png" alt="GitHub Logo">GitHub</li>
+                    <li class="technology"><img src="images/logos/placeholder.png" alt="Maven Logo">Maven</li>
+                    <li class="technology"><img src="images/logos/placeholder.png" alt="Postman Logo">Postman</li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>

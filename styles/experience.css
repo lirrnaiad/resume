@@ -1,0 +1,15 @@
+.job, .project, .award {
+    margin: 50px;
+}
+
+@media (max-width: 480px) {
+    main h1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    main h1 {
+        text-align: center;
+    }
+}

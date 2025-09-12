@@ -1,0 +1,74 @@
+header {
+    padding: 25px;
+    text-align: center;
+    background-color: mediumseagreen;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+header img {
+    display: inline;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    border: 4px solid white;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;;
+}
+
+.contact-information {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-information a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a:hover {
+    background-color: gray;
+}
+
+@media (max-width: 480px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-information {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        list-style-type: none;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-information {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        list-style-type: none;
+    }
+}

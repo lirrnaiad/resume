@@ -1,0 +1,23 @@
+.professional-summary, .basic-info {
+    margin: 50px;
+}
+
+@media (max-width: 480px) {
+    .professional-summary h1 {
+        text-align: center;
+    }
+
+    .basic-info h1, h2 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .professional-summary h1 {
+        text-align: center;
+    }
+
+    .basic-info h1, h2 {
+        text-align: center;
+    }
+}
